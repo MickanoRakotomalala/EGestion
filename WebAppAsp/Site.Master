@@ -19,7 +19,6 @@
     <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css"/>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-
 </head>
 <body>
     <form runat="server">
@@ -69,6 +68,7 @@
     </form>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+        <%: Scripts.Render("~/Scripts/articles.js") %>
     </asp:PlaceHolder>
 </body>
 </html>
