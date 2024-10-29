@@ -8,27 +8,27 @@
 					<div class="appro">
 						<h5><i class="bi bi-cart-plus me-2"></i>Gestion de l'approviosennement</h5>
 						<ul>
-							<li><i class="bi bi-bag-plus-fill me-2"></i><a href="#Commande" onclick="commande()">Insertion des achats</a></li>
-							<li><i class="bi bi-list-check me-2"></i><a href="#Achat" onclick="achat()">Liste des achats</a></li>
+							<li class="active" id="Acommande"><i class="bi bi-bag-plus-fill me-2"></i><a href="#Commande" onclick="commande()">Insertion des achats</a></li>
+							<li id="Aachat"><i class="bi bi-list-check me-2"></i><a href="#Achat" onclick="achat()">Liste des achats</a></li>
 						</ul>
 					</div>
 					<div class="stock">
 						<h5><i class="bi bi-journal-text me-2"></i>Gestion du Stock</h5>
 						<ul>
-							<li><i class="bi bi-card-list me-2"></i><a href="#Stock" onclick="stock()">Liste des articles</a></li>
+							<li id="Astock"><i class="bi bi-card-list me-2"></i><a href="#Stock" onclick="stock()">Liste des articles</a></li>
 						</ul>
 					</div>
 					<div class="caisse">
 						<h5><i class="bi bi-journal-check me-2"></i>Gestion de la caisse</h5>
 						<ul>
-							<li><i class="bi bi-list-stars me-2"></i><a href="#Vente" onclick="vente()">Liste des ventes</a></li>
+							<li id="Avente"><i class="bi bi-list-stars me-2"></i><a href="#Vente" onclick="vente()">Liste des ventes</a></li>
 						</ul>
 					</div>
 					<div class="charge">
 						<h5><i class="bi bi-clipboard-data me-2"></i>Gestion des charges</h5>
 						<ul>
-							<li><i class="bi bi-plus-circle-fill me-2"></i><a href="#Charge" onclick="charge()">Insertion des charges</a></li>
-							<li><i class="bi bi-view-list me-2"></i><a href="#Lcharge" onclick="lcharge()">Liste des charges</a></li>
+							<li id="Acharge"><i class="bi bi-plus-circle-fill me-2"></i><a href="#Charge" onclick="charge()">Insertion des charges</a></li>
+							<li id="Alcharge"><i class="bi bi-view-list me-2"></i><a href="#Lcharge" onclick="lcharge()">Liste des charges</a></li>
 						</ul>
 					</div>
 				</div>

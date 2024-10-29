@@ -21,14 +21,29 @@ textarea {
 }
 
 
-ul li{
+ul{
     list-style-type:none;
+    overflow:hidden;
 }
-ul li a{
-    text-decoration:none;
-    text-align:center;
-    justify-content:center;
-    align-items:center;
+
+ul li a {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #334d4d;
+    text-decoration-color: unset;
+}
+
+ul li a:hover {
+    color: #339966;
+    font-weight:600;
+}
+
+.active,
+.active a{
+    color: #339966;
+    font-weight: 600;
 }
 
 .me-2 {
