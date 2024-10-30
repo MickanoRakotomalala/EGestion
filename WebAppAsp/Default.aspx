@@ -6,7 +6,7 @@
             <div class="row">
 				<div class="col-md-4 container">
 					<div class="appro">
-						<h5><i class="bi bi-cart-plus me-2"></i>Gestion de l'approviosennement</h5>
+						<h5><i class="bi bi-cart-plus me-2"></i><span>Gestion de l'approviosennement</span></h5>
 						<ul>
 							<li class="active" id="Acommande"><i class="bi bi-bag-plus-fill me-2"></i><a href="#Commande" onclick="commande()">Insertion des achats</a></li>
 							<li id="Aachat"><i class="bi bi-list-check me-2"></i><a href="#Achat" onclick="achat()">Liste des achats</a></li>
@@ -34,8 +34,8 @@
 				</div>
 				<div class="col-md-8 container" id="Commande">
 					<div class="row">
-						<div class="offset-4 col-md-4 offset-4">
-							<div class="InserA container">
+						<div class="col-md-6 mx-auto p-4">
+							<div class="InserA container">	
 								<h4>Créer une Commande</h4>
                                 <form method="post">
                                     <div>
@@ -75,7 +75,7 @@
 					</div>
 				</div>
 				<div class="container" id="Achat" hidden>
-						<h5>Lisste des Achats</h5>
+						<h4>Lisste des Achats</h4>
 						<div class="input-group">
 							<input type="search" name="search" class="form-control" placeholder="  Search" style="width:60%">
 							<span type="submit" class="input-group-text btn-sm"><i class="bi bi-search"></i></span>
@@ -146,7 +146,7 @@
 				</div>
 				<div class="container" id="Stock" hidden>
 					<div class="Titre">
-						<h5>Liste des Articles en stock</h5>
+						<h4>Liste des Articles en stock</h4>
 					</div>
 					<div class="table-responsive">
 						<table class="table table-hover">
@@ -208,7 +208,7 @@
 				</div>
 				<div class="container" id="Vente" hidden>
 					<div class="Titre">
-						<h5>Liste des Ventes</h5>
+						<h4>Liste des Ventes</h4>
 					</div>
 					<div class="table-responsive">
 						<table class="table table-hover">
@@ -298,7 +298,7 @@
 				</div>
 				<div class="container" id="Lcharge" hidden>
 					<div class="Titre">
-						<h5>Liste des Charges</h5>
+						<h4>Liste des Charges</h4>
 					</div>
 					<div class="table-responsive">
 						<table class="table table-hover">

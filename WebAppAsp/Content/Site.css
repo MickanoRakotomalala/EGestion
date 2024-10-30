@@ -18,6 +18,9 @@ textarea {
     .body-content {
         padding: 0;
     }
+    .row .col-md-4 .appro h5{
+        content = "";
+    }
 }
 
 
