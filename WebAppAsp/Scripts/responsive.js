@@ -1,15 +1,18 @@
-﻿const approcontent = document.querySelector('h5 span');
-const approicon = document.querySelector('h5 i');
-const appro = document.querySelector('h5');
+﻿const approcontent = document.querySelectorAll('h5 span');
+const approicon = document.querySelectorAll('h5 i');
 const mediaQuery = window.matchMedia("(max-width: 768px)");
 
 function handleTableChange(e) {
     if (e.matches) {
         console.log('Mobile');
-        approcontent.textContent = "";
-        approicon.style.backgroundColor = '#B9B6BF';
-        approicon.style.padding = '8px';
-        approicon.style.borderRadius = '10px';
+        approcontent.forEach(approc => {
+            approc.textContent = " ";
+        });
+        approicon.forEach(approi => {
+            approi.style.backgroundColor = '#B9B6BF';
+            approi.style.padding = '6px';
+            approi.style.borderRadius = '14px';
+        });
 
     } else {
         console.log('Desktop');
@@ -17,6 +20,4 @@ function handleTableChange(e) {
 }
 
 mediaQuery.addEventListener('change', handleTableChange);
-
 handleTableChange(mediaQuery);
-//appro.textContent == "";

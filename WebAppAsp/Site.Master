@@ -57,11 +57,11 @@
                 </div>
             </div>
         </nav>
-        <div class="container body-content">
+        <div class="container-fluid body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer style="background-attachment:fixed;">
+            <footer class="container-fluid">
                 <p>&copy; <%: DateTime.Now.Year %> - Web App ASP</p>
             </footer>
         </div>

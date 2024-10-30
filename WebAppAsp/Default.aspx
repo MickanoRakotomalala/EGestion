@@ -3,36 +3,37 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <main>
+        <div class="container-fluid">
             <div class="row">
-				<div class="col-md-4 container">
-					<div class="appro">
-						<h5><i class="bi bi-cart-plus me-2"></i><span>Gestion de l'approviosennement</span></h5>
-						<ul>
+				<div class="col-md-2">
+					<div class="appro mt-md-3">
+						<h5><i class="bi bi-cart-plus me-2"></i><span type="button" data-bs-toggle="collapse" data-bs-target="#appro" aria-expanded="false" aria-controls="appro">Approvisionnement</span></h5>
+						<ul id="appro">
 							<li class="active" id="Acommande"><i class="bi bi-bag-plus-fill me-2"></i><a href="#Commande" onclick="commande()">Insertion des achats</a></li>
 							<li id="Aachat"><i class="bi bi-list-check me-2"></i><a href="#Achat" onclick="achat()">Liste des achats</a></li>
 						</ul>
 					</div>
 					<div class="stock">
-						<h5><i class="bi bi-journal-text me-2"></i>Gestion du Stock</h5>
-						<ul>
+						<h5><i class="bi bi-journal-text me-2"></i><span type="button" data-bs-toggle="collapse" data-bs-target="#stock" aria-expanded="false" aria-controls="stock">Stock</span></h5>
+						<ul class="collapse" id="stock">
 							<li id="Astock"><i class="bi bi-card-list me-2"></i><a href="#Stock" onclick="stock()">Liste des articles</a></li>
 						</ul>
 					</div>
 					<div class="caisse">
-						<h5><i class="bi bi-journal-check me-2"></i>Gestion de la caisse</h5>
-						<ul>
+						<h5><i class="bi bi-journal-check me-2"></i><span type="button" data-bs-toggle="collapse" data-bs-target="#vente" aria-expanded="false" aria-controls="vente">Caisse</span></h5>
+						<ul class="collapse" id="vente">
 							<li id="Avente"><i class="bi bi-list-stars me-2"></i><a href="#Vente" onclick="vente()">Liste des ventes</a></li>
 						</ul>
 					</div>
 					<div class="charge">
-						<h5><i class="bi bi-clipboard-data me-2"></i>Gestion des charges</h5>
-						<ul>
+						<h5><i class="bi bi-clipboard-data me-2"></i><span type="button" data-bs-toggle="collapse" data-bs-target="#charge" aria-expanded="false" aria-controls="charge">Charge</span></h5>
+						<ul class="collapse" id="charge">
 							<li id="Acharge"><i class="bi bi-plus-circle-fill me-2"></i><a href="#Charge" onclick="charge()">Insertion des charges</a></li>
 							<li id="Alcharge"><i class="bi bi-view-list me-2"></i><a href="#Lcharge" onclick="lcharge()">Liste des charges</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-8 container" id="Commande">
+				<div class="container col-md-9" id="Commande">
 					<div class="row">
 						<div class="col-md-6 mx-auto p-4">
 							<div class="InserA container">	
@@ -75,7 +76,7 @@
 					</div>
 				</div>
 				<div class="container" id="Achat" hidden>
-						<h4>Lisste des Achats</h4>
+						<h4>Liste des Achats</h4>
 						<div class="input-group">
 							<input type="search" name="search" class="form-control" placeholder="  Search" style="width:60%">
 							<span type="submit" class="input-group-text btn-sm"><i class="bi bi-search"></i></span>
@@ -353,6 +354,7 @@
 					</div>
 				</div>
 		    </div>
+		</div>
     </main>
 
 </asp:Content>

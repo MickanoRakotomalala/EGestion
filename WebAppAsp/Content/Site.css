@@ -53,3 +53,12 @@ ul li a:hover {
     position:relative;
     top:-3px;
 }
+
+h5 i{
+    /*color:aliceblue;*/
+}
+.col-md-9,
+.col-md-2 {
+    background-color: #E0E7E7;
+    border-radius:10px;
+}

@@ -10,6 +10,8 @@ const Astock = document.getElementById("Astock");
 const Avente = document.getElementById("Avente");
 const Acharge = document.getElementById("Acharge");
 const Alcharge = document.getElementById("Alcharge");
+const Menuappro = document.getElementById('menuappro');
+
 
 function commande() {
     Commande.hidden = false;
@@ -25,10 +27,11 @@ function commande() {
     Avente.classList.remove('active');
     Acharge.classList.remove('active');
     Alcharge.classList.remove('active');
+
 }
 
 function achat() {
-    Achat.classList.add('col-md-8');
+    Achat.classList.add('col-md-9');
     Achat.hidden = false;
     Commande.hidden = true;
     Stock.hidden = true;
@@ -42,10 +45,11 @@ function achat() {
     Avente.classList.remove('active');
     Acharge.classList.remove('active');
     Alcharge.classList.remove('active');
+
 }
 
 function stock() {
-    Stock.classList.add('col-md-8');
+    Stock.classList.add('col-md-9');
     Stock.hidden = false;
     Commande.hidden = true;
     Achat.hidden = true;
@@ -62,7 +66,7 @@ function stock() {
 }
 
 function vente() {
-    Vente.classList.add('col-md-8');
+    Vente.classList.add('col-md-9');
     Vente.hidden = false;
     Commande.hidden = true;
     Achat.hidden = true;
@@ -79,7 +83,7 @@ function vente() {
 }
 
 function charge() {
-    Charge.classList.add('col-md-8');
+    Charge.classList.add('col-md-9');
     Charge.hidden = false;
     Commande.hidden = true;
     Achat.hidden = true;
@@ -96,7 +100,7 @@ function charge() {
 }
 
 function lcharge() {
-    Lcharge.classList.add('col-md-8');
+    Lcharge.classList.add('col-md-9');
     Lcharge.hidden = false;
     Commande.hidden = true;
     Achat.hidden = true;
@@ -111,3 +115,6 @@ function lcharge() {
     Aachat.classList.remove('active');
     Acommande.classList.remove('active');
 }
+
+
+
