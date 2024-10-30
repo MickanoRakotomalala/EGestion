@@ -18,9 +18,6 @@ textarea {
     .body-content {
         padding: 0;
     }
-    .row .col-md-4 .appro h5{
-        content = "";
-    }
 }
 
 
@@ -29,24 +26,33 @@ ul{
     overflow:hidden;
 }
 
-ul li a {
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: #334d4d;
-    text-decoration-color: unset;
-}
+    ul li a {
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: #E9F1F0;
+        text-decoration-color: unset;
+        font-weight: 400;
+        font-size:12px;
+    }
+
+    ul li i {
+        color: #66938E;
+    }
 
 ul li a:hover {
-    color: #339966;
-    font-weight:600;
+    color:whitesmoke;
+    font-weight:700;
+    font-size:14px;
 }
 
 .active,
-.active a{
-    color: #339966;
-    font-weight: 600;
+.active a,
+.active i{
+    color: whitesmoke;
+    font-weight: 750;
+    font-size:16px;
 }
 
 .me-2 {
@@ -54,11 +60,20 @@ ul li a:hover {
     top:-3px;
 }
 
-h5 i{
-    /*color:aliceblue;*/
-}
 .col-md-9,
 .col-md-2 {
-    background-color: #E0E7E7;
-    border-radius:10px;
+    background-color: #444747;
+    border-radius: 5px;
+}
+
+.menuactive i,
+.menuactive span{
+    color:whitesmoke;
+    font-size:20px;
+    font-weight:800;
+}
+
+h5 i,
+h5 span {
+    color: #5BA790;
 }

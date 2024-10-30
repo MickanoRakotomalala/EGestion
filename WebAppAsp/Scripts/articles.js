@@ -11,6 +11,9 @@ const Avente = document.getElementById("Avente");
 const Acharge = document.getElementById("Acharge");
 const Alcharge = document.getElementById("Alcharge");
 const Menuappro = document.getElementById('menuappro');
+const Menustock = document.getElementById('menustock');
+const Menucaisse = document.getElementById('menucaisse');
+const Menucharge = document.getElementById('menucharge');
 
 
 function commande() {
@@ -28,6 +31,10 @@ function commande() {
     Acharge.classList.remove('active');
     Alcharge.classList.remove('active');
 
+    Menuappro.classList.add('menuactive');
+    Menustock.classList.remove('menuactive');
+    Menucaisse.classList.remove('menuactive');
+    Menucharge.classList.remove('menuactive');
 }
 
 function achat() {
@@ -46,6 +53,11 @@ function achat() {
     Acharge.classList.remove('active');
     Alcharge.classList.remove('active');
 
+    Menuappro.classList.add('menuactive');
+    Menustock.classList.remove('menuactive');
+    Menucaisse.classList.remove('menuactive');
+    Menucharge.classList.remove('menuactive');
+
 }
 
 function stock() {
@@ -63,6 +75,11 @@ function stock() {
     Avente.classList.remove('active');
     Acharge.classList.remove('active');
     Alcharge.classList.remove('active');
+
+    Menuappro.classList.remove('menuactive');
+    Menustock.classList.add('menuactive');
+    Menucaisse.classList.remove('menuactive');
+    Menucharge.classList.remove('menuactive');
 }
 
 function vente() {
@@ -80,6 +97,11 @@ function vente() {
     Acommande.classList.remove('active');
     Acharge.classList.remove('active');
     Alcharge.classList.remove('active');
+
+    Menuappro.classList.remove('menuactive');
+    Menustock.classList.remove('menuactive');
+    Menucaisse.classList.add('menuactive');
+    Menucharge.classList.remove('menuactive');
 }
 
 function charge() {
@@ -97,6 +119,11 @@ function charge() {
     Aachat.classList.remove('active');
     Acommande.classList.remove('active');
     Alcharge.classList.remove('active');
+
+    Menuappro.classList.remove('menuactive');
+    Menustock.classList.remove('menuactive');
+    Menucaisse.classList.remove('menuactive');
+    Menucharge.classList.add('menuactive');
 }
 
 function lcharge() {
@@ -114,6 +141,11 @@ function lcharge() {
     Astock.classList.remove('active');
     Aachat.classList.remove('active');
     Acommande.classList.remove('active');
+
+    Menuappro.classList.remove('menuactive');
+    Menustock.classList.remove('menuactive');
+    Menucaisse.classList.remove('menuactive');
+    Menucharge.classList.add('menuactive');
 }
 
 
