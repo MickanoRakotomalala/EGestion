@@ -6,6 +6,47 @@
     padding-right: 15px;
 }
 
+.body {
+    background-color: #F0F7F7;
+}
+
+nav {
+    background-color: white;
+    background-attachment: fixed;
+    border-bottom: 1px solid #E4ECEC;
+}
+
+nav .container a img {
+    margin-top:-10px;
+    margin-right:5px;
+}
+
+    nav .container .navbar-brand {
+        color: #347A90;
+        font-weight: 800;
+        font-family: cursive;
+        font-style: italic;
+    }
+
+    nav .container .navbar-brand span {
+        font-size:28px;
+    }
+
+    nav .nav-item:hover {
+        color: #333636;
+        font-weight: 700;
+    }    
+    
+    nav .nav-item {
+        margin-left:14px;
+    }
+
+.active-item {
+    border-bottom: 2px solid #868A8A;
+    color: #333636;
+    font-weight: 700;
+}
+
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input,
 select,
@@ -31,28 +72,26 @@ ul{
         text-align: center;
         justify-content: center;
         align-items: center;
-        color: #E9F1F0;
+        color: #868A8A;
         text-decoration-color: unset;
         font-weight: 400;
-        font-size:12px;
+        font-size: 12px;
     }
 
     ul li i {
         color: #66938E;
     }
 
-ul li a:hover {
-    color:whitesmoke;
-    font-weight:700;
-    font-size:14px;
-}
+    ul li a:hover {
+        color: #66938E;
+    }
 
 .active,
 .active a,
-.active i{
-    color: whitesmoke;
+.active i {
+    color: #66938E;
     font-weight: 750;
-    font-size:16px;
+    font-size: 16px;
 }
 
 .me-2 {
@@ -62,18 +101,21 @@ ul li a:hover {
 
 .col-md-9,
 .col-md-2 {
-    background-color: #444747;
-    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #E4ECEC;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #E4ECEC;
 }
 
 .menuactive i,
-.menuactive span{
-    color:whitesmoke;
-    font-size:20px;
-    font-weight:800;
+.menuactive span {
+    color: #66938E;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 h5 i,
 h5 span {
-    color: #5BA790;
+    color: #767B7B;
 }
+
