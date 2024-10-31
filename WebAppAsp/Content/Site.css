@@ -119,3 +119,27 @@ h5 span {
     color: #767B7B;
 }
 
+.col-md-4 label{
+    color: #569999;
+    font-weight:600;
+    font-style:oblique;
+}
+
+.col-md-4 h4,
+.container h4 {
+    color: #66938E;
+    font-weight:700;
+    font-style:oblique;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.container .input-group{
+/*    position:relative;
+    right:-70%;*/
+}
+
+.form-commande {
+    margin-bottom:20px;
+}

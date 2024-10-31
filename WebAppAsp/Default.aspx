@@ -35,11 +35,10 @@
 				</div>
 				<div class="container col-md-9" id="Commande">
 					<div class="row">
-						<div class="col-md-6 mx-auto p-4">
-							<div class="InserA container">	
+						<div class="col-md-4 mx-auto p-4">	
 								<h4>Créer une Commande</h4>
                                 <form method="post">
-                                    <div>
+                                    <div class="form-commande">
                                         <label>Libellé</label>
                                         <select class="form-control">
                                             <option value="Cahier">Cachier</option>
@@ -49,7 +48,7 @@
                                             <option value="Gomme">Gomme</option>
                                         </select>
                                     </div>
-                                    <div>
+                                    <div class="form-commande">
                                         <label>Prix</label>
                                         <select class="form-control">
                                             <option value="Cahier">12 000Ar</option>
@@ -59,26 +58,23 @@
                                             <option value="Gomme">1 000Ar</option>
                                         </select>
                                     </div>
-                                    <div>
+                                    <div class="form-commande">
                                         <label>Quantité</label>
                                         <input type="Number" name="Number" class="form-control" placeholder="Choisissez votre  Quantité">
                                     </div>
-                                    <div>
+                                    <div class="form-commande">
                                         <label>Date</label>
-                                        <input type="date" name="date" class="form-control" style="width: 100%;">
+                                        <input type="date" name="date" class="form-control">
                                     </div>
-                                    <div style="margin-top: 20px;">
-                                        <button type="submit" class="btn btn-success">Submit</button>
-                                    </div>
+                                    <button type="submit" class="btn btn-success mt-md-2">Submit</button>
                                 </form>
-							</div>
                          </div>
 					</div>
 				</div>
-				<div class="container" id="Achat" hidden>
+				<div class="container p-4" id="Achat" hidden>
 						<h4>Liste des Achats</h4>
 						<div class="input-group">
-							<input type="search" name="search" class="form-control" placeholder="  Search" style="width:60%">
+							<input type="search" name="search" class="form-control" placeholder="Rechercher">
 							<span type="submit" class="input-group-text btn-sm"><i class="bi bi-search"></i></span>
 						</div>
 						<div class="table-responsive">
