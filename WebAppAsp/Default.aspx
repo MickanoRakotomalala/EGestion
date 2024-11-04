@@ -73,9 +73,13 @@
 				</div>
 				<div class="container p-4" id="Achat" hidden>
 						<h4>Liste des Achats</h4>
-						<div class="input-group">
-							<input type="search" name="search" class="form-control" placeholder="Rechercher">
-							<span type="submit" class="input-group-text btn-sm"><i class="bi bi-search"></i></span>
+						<div class="row">
+                            <div class="offset-md-8 col-md-4 col-sm-8 offset-sm-4">
+								<div class="input-group">
+									<input type="search" name="search" class="form-control" placeholder="Rechercher">
+									<span type="submit" class="input-group-text btn-sm"><i class="bi bi-search"></i></span>
+								</div>
+                            </div>
 						</div>
 						<div class="table-responsive">
 							<table class="table table-hover">
@@ -141,7 +145,7 @@
 							</table>
 						</div>
 				</div>
-				<div class="container" id="Stock" hidden>
+				<div class="container p-4" id="Stock" hidden>
 					<div class="Titre">
 						<h4>Liste des Articles en stock</h4>
 					</div>
@@ -203,7 +207,7 @@
 						</table>
 					</div>
 				</div>
-				<div class="container" id="Vente" hidden>
+				<div class="container p-4" id="Vente" hidden>
 					<div class="Titre">
 						<h4>Liste des Ventes</h4>
 					</div>
@@ -265,7 +269,7 @@
 						</table>
 					</div>
 				</div>
-				<div class="container" id="Charge" hidden>
+				<div class="container p-4" id="Charge" hidden>
 					<div class="row">
 						<div class="offset-2 col-md-8 offset-2">
 							<h4>Ajouter une Charge</h4>
@@ -293,7 +297,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="container" id="Lcharge" hidden>
+				<div class="container p-4" id="Lcharge" hidden>
 					<div class="Titre">
 						<h4>Liste des Charges</h4>
 					</div>
