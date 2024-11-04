@@ -90,7 +90,7 @@
 									<th>Quantité</th>
 									<th>Total</th>
 									<th>Date</th>
-									<th style="text-align:center;" colspan="2">Actions</th>
+									<th colspan="2"></th>
 								</tr>
 								<tr>
 									<td>1</td>
@@ -99,8 +99,8 @@
 									<td>3</td>
 									<td>36 000Ar</td>
 									<td>22/01/2021</td>
-									<td class="Update"><a href="#">Update</a></td>
-									<td class="Delete"><a href="#">Delete</a></td>
+									<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+									<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 								</tr>
 								<tr>
 									<td>4</td>
@@ -109,8 +109,8 @@
 									<td>5</td>
 									<td>25 000Ar</td>
 									<td>12/01/2021</td>
-									<td class="Update"><a href="#">Update</a></td>
-									<td class="Delete"><a href="#">Delete</a></td>
+									<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+									<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 								</tr>
 								<tr>
 									<td>10</td>
@@ -119,8 +119,8 @@
 									<td>8</td>
 									<td>64 000Ar</td>
 									<td>14/02/2021</td>
-									<td class="Update"><a href="#">Update</a></td>
-									<td class="Delete"><a href="#">Delete</a></td>
+									<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+									<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 								</tr>
 								<tr>
 									<td>15</td>
@@ -129,8 +129,8 @@
 									<td>10</td>
 									<td>30 000Ar</td>
 									<td>13/02/2021</td>
-									<td class="Update"><a href="#">Update</a></td>
-									<td class="Delete"><a href="#">Delete</a></td>
+									<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+									<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 								</tr>
 								<tr>
 									<td>19</td>
@@ -139,8 +139,8 @@
 									<td>5</td>
 									<td>5 000Ar</td>
 									<td>15/02/2021</td>
-									<td class="Update"><a href="#">Update</a></td>
-									<td class="Delete"><a href="#">Delete</a></td>
+									<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+									<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 								</tr>
 							</table>
 						</div>
@@ -157,7 +157,7 @@
 								<th>Prix</th>
 								<th>Quantité Restante</th>
 								<th>Total</th>
-								<th style="text-align:center;" colspan="2">Actions</th>
+								<th colspan="2"></th>
 							</tr>
 							<tr>
 								<td>RF001</td>
@@ -165,8 +165,8 @@
 								<td>12 000Ar</td>
 								<td>70</td>
 								<td>724 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>RF002</td>
@@ -174,8 +174,8 @@
 								<td>5 000Ar</td>
 								<td>100</td>
 								<td>500 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>RF003</td>
@@ -183,8 +183,8 @@
 								<td>8 000Ar</td>
 								<td>50</td>
 								<td>400 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>RF004</td>
@@ -192,8 +192,8 @@
 								<td>3 000Ar</td>
 								<td>60</td>
 								<td>180 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>RF005</td>
@@ -201,8 +201,8 @@
 								<td>1 000Ar</td>
 								<td>80</td>
 								<td>80 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 						</table>
 					</div>
@@ -219,7 +219,7 @@
 								<th>Prix</th>
 								<th>Quantité Vendue</th>
 								<th>Total</th>
-								<th style="text-align:center;" colspan="2">Actions</th>
+								<th colspan="2"></th>
 							</tr>
 							<tr>
 								<td>RF001</td>
@@ -227,8 +227,8 @@
 								<td>12 000Ar</td>
 								<td>3</td>
 								<td>36 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>RF002</td>
@@ -236,8 +236,8 @@
 								<td>5 000Ar</td>
 								<td>10</td>
 								<td>50 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>RF003</td>
@@ -245,8 +245,8 @@
 								<td>8 000Ar</td>
 								<td>5</td>
 								<td>40 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>RF004</td>
@@ -254,8 +254,8 @@
 								<td>3 000Ar</td>
 								<td>6</td>
 								<td>18 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>RF005</td>
@@ -263,15 +263,15 @@
 								<td>1 000Ar</td>
 								<td>8</td>
 								<td>8 000Ar</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 						</table>
 					</div>
 				</div>
 				<div class="container p-4" id="Charge" hidden>
 					<div class="row">
-						<div class="offset-2 col-md-8 offset-2">
+						<div class="col-md-4 mx-auto">
 							<h4>Ajouter une Charge</h4>
 							<form>
 								<div>
@@ -308,47 +308,47 @@
 								<th>Libellé</th>
 								<th>Montant</th>
 								<th>Date</th>
-								<th style="text-align:center;" colspan="2">Actions</th>
+								<th colspan="2"></th>
 							</tr>
 							<tr>
 								<td>FA001</td>
 								<td>EAU et ELECTRCITE</td>
 								<td>12 000Ar</td>
 								<td>22/12/2020</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>FA002</td>
 								<td>ASSURANCES ARO</td>
 								<td>50 000Ar</td>
 								<td>23/01/2021</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>FA003</td>
 								<td>IRSA</td>
 								<td>8 000Ar</td>
 								<td>24/01/2021</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>FA004</td>
 								<td>SALAIRE DES EMPLOYES</td>
 								<td>4 000 000Ar</td>
 								<td>25/01/2021</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 							<tr>
 								<td>FA005</td>
 								<td>SOCIALES</td>
 								<td>200 000Ar</td>
 								<td>26/01/2021</td>
-								<td class="Update"><a href="#">Update</a></td>
-								<td class="Delete"><a href="#">Delete</a></td>
+								<td class="Update"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-trash"></i></a></td>
 							</tr>
 						</table>
 					</div>

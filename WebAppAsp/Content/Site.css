@@ -143,3 +143,11 @@ h5 span {
 .form-commande {
     margin-bottom:20px;
 }
+
+.Update a i {
+    color: #66938E;
+}
+
+.Delete a i {
+    color:red;
+}
