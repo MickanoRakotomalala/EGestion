@@ -15,6 +15,14 @@ const Menustock = document.getElementById('menustock');
 const Menucaisse = document.getElementById('menucaisse');
 const Menucharge = document.getElementById('menucharge');
 
+const Menucf = document.getElementById('menucf');
+const Alclient = document.getElementById('Alclient');
+const Alfournisseur = document.getElementById('Afrns');
+const Menubanque = document.getElementById('menubanque');
+const Abanque = document.getElementById('Abanque');
+const Client = document.getElementById('Client');
+const Fournisseur = document.getElementById('Frns');
+
 
 function commande() {
     Commande.hidden = false;
@@ -148,13 +156,22 @@ function lcharge() {
     Menucharge.classList.add('menuactive');
 }
 
-const Menucf = document.getElementById('menucf');
-const Alclient = document.getElementById('Alclient');
-const Alfournisseur = document.getElementById('Alfrns');
-const Menubanque = document.getElementById('menubanque');
-const Abanque = document.getElementById('Abanque');
-const Client = document.getElementById('Client');
-const Fournisseur = document.getElementById('Frns');
+// Récupérer l'URL actuelle
+const currentLocation = location.href;
+
+// Sélectionner tous les liens de la navbar
+const menuItems = document.querySelectorAll('.nav-item a');
+
+// Parcourir chaque lien pour vérifier si l'URL correspond à celle de la page
+menuItems.forEach(item => {
+    // Si l'URL du lien correspond à l'URL actuelle
+    if (item.href === currentLocation) {
+        // Supprimer la classe active de tous les autres éléments
+        menuItems.forEach(i => i.parentElement.classList.remove('active-item'));
+        // Ajouter la classe active à l'élément correspondant
+        item.parentElement.classList.add('active-item');
+    }
+});
 
 function Aclient() {
     Alclient.classList.add('active');
@@ -180,41 +197,14 @@ function Afrns() {
     Menubanque.classList.remove('menuactive');
 }
 
-function Abanque() {
-    Abanque.classList.add('active');
-    Alclient.classList.remove('active');
-    Alfournisseur.classList.remove('active');
+//function Abanque() {
+//    Abanque.classList.add('active');
+//    Alclient.classList.remove('active');
+//    Alfournisseur.classList.remove('active');
 
-    Menubanque.classList.add('menuactive');
-    Menucf.classList.remove('menuactive');
-}
+//    Menubanque.classList.add('menuactive');
+//    Menucf.classList.remove('menuactive');
+//}
 
-function tiers() {
-    Alclient.classList.add('active');
-    Alfournisseur.classList.remove('active');
-    Abanque.classList.remove('active');
-    Client.classList.add('col-md-9');
-    Fournisseur.hidden = true;
-
-    Menucf.classList.add('menuactive');
-    Menubanque.classList.remove('menuactive');
-}
-
-// Récupérer l'URL actuelle
-const currentLocation = location.href;
-
-// Sélectionner tous les liens de la navbar
-const menuItems = document.querySelectorAll('.nav-item a');
-
-// Parcourir chaque lien pour vérifier si l'URL correspond à celle de la page
-menuItems.forEach(item => {
-    // Si l'URL du lien correspond à l'URL actuelle
-    if (item.href === currentLocation) {
-        // Supprimer la classe active de tous les autres éléments
-        menuItems.forEach(i => i.parentElement.classList.remove('active-item'));
-        // Ajouter la classe active à l'élément correspondant
-        item.parentElement.classList.add('active-item');
-    }
-});
 
 
