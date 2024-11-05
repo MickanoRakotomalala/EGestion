@@ -52,9 +52,9 @@
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item active-item" id="articles" onclick="articles()"><a class="nav-link" runat="server" href="~/">Articles</a></li>
-                        <li class="nav-item" id="tiers" onclick="tiers()"><a class="nav-link" runat="server" href="~/About">Tiers</a></li>
-                        <li class="nav-item" id="contact" onclick="contact()"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
+                        <li class="nav-item active-item"><a class="nav-link" runat="server" href="~/">Articles</a></li>
+                        <li class="nav-item" onclick="tiers()"><a class="nav-link" runat="server" href="~/Tiers">Tiers</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,7 +64,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer class="container-fluid">
-                <p>&copy; <%: DateTime.Now.Year %> - Web App ASP</p>
+                <p>&copy; <%: DateTime.Now.Year %> - EGestion create by Mickano</p>
             </footer>
         </div>
     </form>

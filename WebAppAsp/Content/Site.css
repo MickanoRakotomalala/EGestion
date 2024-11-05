@@ -88,7 +88,7 @@ ul{
 
 .active,
 .active a,
-.active i {
+.active i{
     color: #66938E;
     font-weight: 750;
     font-size: 16px;
@@ -108,7 +108,7 @@ ul{
 }
 
 .menuactive i,
-.menuactive span {
+.menuactive span{
     color: #66938E;
     font-size: 20px;
     font-weight: 800;

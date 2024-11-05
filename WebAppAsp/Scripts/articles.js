@@ -16,7 +16,6 @@ const Menucaisse = document.getElementById('menucaisse');
 const Menucharge = document.getElementById('menucharge');
 
 
-
 function commande() {
     Commande.hidden = false;
     Achat.hidden = true;
@@ -147,6 +146,58 @@ function lcharge() {
     Menustock.classList.remove('menuactive');
     Menucaisse.classList.remove('menuactive');
     Menucharge.classList.add('menuactive');
+}
+
+const Menucf = document.getElementById('menucf');
+const Alclient = document.getElementById('Alclient');
+const Alfournisseur = document.getElementById('Alfrns');
+const Menubanque = document.getElementById('menubanque');
+const Abanque = document.getElementById('Abanque');
+const Client = document.getElementById('Client');
+const Fournisseur = document.getElementById('Frns');
+
+function Aclient() {
+    Alclient.classList.add('active');
+    Alfournisseur.classList.remove('active');
+    Abanque.classList.remove('active');
+    Client.classList.add('col-md-9');
+    Client.hidden = false;
+    Fournisseur.hidden = true;
+
+    Menucf.classList.add('menuactive');
+    Menubanque.classList.remove('menuactive');
+}
+
+function Afrns() {
+    Alfournisseur.classList.add('active');
+    Alclient.classList.remove('active');
+    Abanque.classList.remove('active');
+    Fournisseur.classList.add('col-md-9');
+    Fournisseur.hidden = false;
+    Client.hidden = true;
+
+    Menucf.classList.add('menuactive');
+    Menubanque.classList.remove('menuactive');
+}
+
+function Abanque() {
+    Abanque.classList.add('active');
+    Alclient.classList.remove('active');
+    Alfournisseur.classList.remove('active');
+
+    Menubanque.classList.add('menuactive');
+    Menucf.classList.remove('menuactive');
+}
+
+function tiers() {
+    Alclient.classList.add('active');
+    Alfournisseur.classList.remove('active');
+    Abanque.classList.remove('active');
+    Client.classList.add('col-md-9');
+    Fournisseur.hidden = true;
+
+    Menucf.classList.add('menuactive');
+    Menubanque.classList.remove('menuactive');
 }
 
 // Récupérer l'URL actuelle
