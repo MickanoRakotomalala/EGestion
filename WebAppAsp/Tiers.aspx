@@ -13,9 +13,9 @@
 						</ul>
 					</div>
 					<div>
-						<h5 id="menubanque"><i class="bi bi-wallet me-2"></i><span type="button" data-bs-toggle="collapse" data-bs-target="#banque" aria-expanded="false" aria-controls="banque">Banque</span></h5>
-						<ul class="collapse" id="banque">
-							<li id="Abanque"><i class="bi bi-card-list me-2"></i><a href="#" onclick="Abanque()">Mouvements Bancaire</a></li>
+						<h5 id="menubanque"><i class="bi bi-wallet me-2"></i><span type="button" data-bs-toggle="collapse" data-bs-target="#lbanque" aria-expanded="false" aria-controls="lbanque">Banque</span></h5>
+						<ul class="collapse" id="lbanque">
+							<li id="Abanque"><i class="bi bi-card-list me-2"></i><a href="#Banque" onclick="Bq()">Mouvements Bancaire</a></li>
 						</ul>
 					</div>
 				</div>
@@ -138,6 +138,62 @@
 								</table>
 							</div>
 						</div>
+				</div>
+				<div class="container p-4" id="Banque" hidden>
+					<div class="Titre">
+						<h4>Mouvements Bancaires</h4>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-hover">
+							<tr>
+								<th>Banque</th>
+								<th>Libellé</th>
+								<th>Date</th>
+								<th>Montant</th>
+								<th colspan="2"></th>
+							</tr>
+							<tr>
+								<td>BNI</td>
+								<td>Virement reçu de Jules</td>
+								<td>18/01/2021</td>
+								<td>75 000Ar</td>
+								<td class="Update"><a href="#"><i class="bi bi-clipboard-check"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+							</tr>
+							<tr>
+								<td>BFV SG</td>
+								<td>Retrait DAB La City</td>
+								<td>20/01/2021</td>
+								<td>170 000Ar</td>
+								<td class="Update"><a href="#"><i class="bi bi-clipboard-check"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+							</tr>
+							<tr>
+								<td>BOA</td>
+								<td>Virement par chèque</td>
+								<td>27/01/2021</td>
+								<td>80 000Ar</td>
+								<td class="Update"><a href="#"><i class="bi bi-clipboard-check"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+							</tr>
+								<tr>
+								<td>BFV SG</td>
+								<td>Virement vers le Compte  de Marie</td>
+								<td>20/01/2021</td>
+								<td>200 000Ar</td>
+								<td class="Update"><a href="#"><i class="bi bi-clipboard-check"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+							</tr>
+							<tr>
+								<td>BFV SG</td>
+								<td>Retrait DAB La Antanimena</td>
+								<td>29/01/2021</td>
+								<td>300 000Ar</td>
+								<td class="Update"><a href="#"><i class="bi bi-clipboard-check"></i></a></td>
+								<td class="Delete"><a href="#"><i class="bi bi-pencil-square"></i></a></td>
+							</tr>
+						</table>
+					</div>
 				</div>
             </div>
         </div>
