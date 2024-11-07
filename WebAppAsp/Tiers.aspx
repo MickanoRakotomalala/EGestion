@@ -7,7 +7,7 @@
                 <div class="col-md-2 container">
 					<div class="mt-md-3">
 						<h5 class="menuactive" id="menucf"><i class="bi bi-shop-window me-2"></i><span type="button" data-bs-toggle="collapse" data-bs-target="#cf" aria-expanded="false" aria-controls="cf">Clients/Fournisseurs</span></h5>
-						<ul id="cf">
+						<ul class="collapse" id="cf">
 							<li class="active" id="Alclient"><i class="bi bi-bag-plus-fill me-2"></i><a href="#Client" onclick="Aclient()">Liste des clients</a></li>
 							<li id="Afrns"><i class="bi bi-list-check me-2"></i><a href="#Frns" onclick="Afrns()">Liste des fournisseurs</a></li>
 						</ul>

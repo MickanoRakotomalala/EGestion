@@ -59,6 +59,11 @@ textarea {
     .body-content {
         padding: 0;
     }
+
+    h5 i,
+    h5 span {
+        color: white;
+    }
 }
 
 
@@ -107,6 +112,13 @@ ul{
     box-shadow: 4px 4px 4px #E4ECEC;
 }
 
+.col-sm-10 {
+    background-color: white;
+    border: 0.5px solid #E4ECEC;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #E4ECEC;
+}
+
 .menuactive i,
 .menuactive span{
     color: #66938E;
@@ -150,4 +162,8 @@ h5 span {
 
 .Delete a i {
     color:red;
+}
+
+footer{
+    background-color:gray;
 }
