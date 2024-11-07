@@ -4,11 +4,22 @@
     margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
+    flex:1;
 }
 
 .body {
     background-color: #F0F7F7;
 }
+
+body, html{
+    margin:0;
+    padding:0;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+
 
 nav {
     background-color: white;
@@ -99,11 +110,6 @@ ul{
     font-size: 16px;
 }
 
-.me-2 {
-    position:relative;
-    top:-3px;
-}
-
 .col-md-9,
 .col-md-2 {
     background-color: white;
@@ -147,15 +153,11 @@ h5 span {
     text-align:center;
 }
 
-.container .input-group{
-/*    position:relative;
-    right:-70%;*/
-}
-
 .form-commande {
     margin-bottom:20px;
 }
 
+/*action*/
 .Update a i {
     color: #66938E;
 }
@@ -164,6 +166,35 @@ h5 span {
     color:red;
 }
 
-footer{
-    background-color:gray;
+/*Footer*/
+footer {
+    padding-top: 60px;
+    height: 200px;
+    background-color: #868A8A;
+    text-align: center;
+}
+
+footer p {
+   color: whitesmoke;
+}
+
+footer span a i {
+    font-size: 28px;
+    color: white;
+}
+
+footer span a .bi-envelope:hover {
+    color: #E34620;
+}
+
+footer span a .bi-linkedin:hover {
+    color: #0D60B0;
+}
+
+footer span a .bi-facebook:hover {
+    color: #0D60B0;
+}
+
+footer span a .bi-whatsapp:hover {
+    color: green;
 }

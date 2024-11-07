@@ -62,12 +62,16 @@
         <div class="container-fluid body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer class="container-fluid">
-                <p>&copy; <%: DateTime.Now.Year %> - EGestion create by Mickano</p>
-            </footer>
         </div>
     </form>
+    <hr />
+     <footer class="container-fluid">
+         <p>&copy; <%: DateTime.Now.Year %> - EGestion create by Mickano</p>
+         <span><a href="mailto:rakotomalalamickano@gmail.com" target="_blank"><i class="bi bi-envelope me-4"></i></a></span>
+         <span><a href="https://linkedin.com/in/nantenaina-mickano-rakotomalala-55a3a11ab" target="_blank"><i class="bi bi-linkedin me-4"></i></a></span>
+         <span><a href="https://www.facebook.com/mickano.rakotomalala" target="_blank"><i class="bi bi-facebook me-4"></i></a></span>
+         <span><a href="https://wa.me/+261341029531" target="_blank"><i class="bi bi-whatsapp"></i></a></span>
+     </footer>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/Scripts/bootstrap.js") %>
         <%: Scripts.Render("~/Scripts/articles.js") %>
