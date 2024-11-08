@@ -78,13 +78,12 @@ textarea {
 }
 
 @media screen and (max-width:992px) {
-    h5 span,
-    .menuactive span {
+    h5 span {
         font-size: 12px;
-        font-weight: 800;
     }
 }
 
+/*Navbar*/
 ul{
     list-style-type:none;
     overflow:hidden;
@@ -117,6 +116,7 @@ ul{
     font-size: 16px;
 }
 
+/*Menu*/
 .col-md-9,
 .col-md-2 {
     background-color: white;
@@ -132,16 +132,25 @@ ul{
     box-shadow: 2px 2px 2px #E4ECEC;
 }
 
+.col-md-2,
+.col-1{
+    margin-left:1px;
+}
+
 .menuactive i,
-.menuactive span{
+.menuactive span {
     color: #66938E;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
 }
 
 h5 i,
 h5 span {
     color: #767B7B;
+}
+
+h5 span {
+    font-size: 16px;
 }
 
 .col-md-4 label{

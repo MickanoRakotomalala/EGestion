@@ -7,7 +7,7 @@
             <div class="row">
 				<div class="col-md-2" id="menu">
 					<div class="appro mt-md-3">
-						<h5 class="menuactive" id="menuappro"><i class="bi bi-cart-plus me-2"></i><span type="button" data-bs-toggle="collapse" data-bs-target="#appro" aria-expanded="false" aria-controls="appro">Approvisionnement</span></h5>
+						<h5 class="menuactive" id="menuappro"><i class="bi bi-cart-plus me-2"></i><span type="button" data-bs-toggle="collapse" data-bs-target="#appro" aria-expanded="false" aria-controls="appro">Appro</span></h5>
 						<ul class="collapse" id="appro">
 							<li class="active" id="Acommande"><i class="bi bi-bag-plus-fill me-2"></i><a href="#Commande" onclick="commande()">Insertion des achats</a></li>
 							<li id="Aachat"><i class="bi bi-list-check me-2"></i><a href="#Achat" onclick="achat()">Liste des achats</a></li>
@@ -34,10 +34,9 @@
 					</div>
 				</div>
 				<div class="container col-md-9" id="Commande">
-					<div class="row">
 						<div class="col-md-4 mx-auto p-4">	
-								<h4>Créer une Commande</h4>
                                 <form method="post">
+									<h4>Créer une Commande</h4>
                                     <div class="form-commande">
                                         <label>Libellé</label>
                                         <select class="form-control">
@@ -69,7 +68,6 @@
                                     <button type="submit" class="btn btn-success mt-md-2">Submit</button>
                                 </form>
                          </div>
-					</div>
 				</div>
 				<div class="container p-4" id="Achat" hidden>
 						<h4>Liste des Achats</h4>
