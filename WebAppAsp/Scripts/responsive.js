@@ -18,9 +18,9 @@ function handleTableChange(e) {
         });
 
         menu.classList.remove('col-md-2');
-        menu.classList.add('col-sm-1');
+        menu.classList.add('col-2');
         menuCommande.classList.remove('col-md-9');
-        menuCommande.classList.add('col-sm-10');
+        menuCommande.classList.add('col-10');
     } else {
         console.log('Desktop');
     }
