@@ -63,7 +63,7 @@
                                     </div>
                                     <div class="form-commande">
                                         <label>Date</label>
-                                        <input type="date" name="date" class="form-control">
+                                        <input type="text" name="date" class="form-control" value="<%:DateTime.Now.Date %>">
                                     </div>
                                     <button type="submit" class="btn btn-success mt-md-2">Submit</button>
                                 </form>

@@ -2,18 +2,30 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h2 id="title"><%: Title %>.</h2>
-        <h3>Your contact page.</h3>
-        <address>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399<br />
-            <abbr title="Phone">P:</abbr>
-            425.555.0100
-        </address>
 
-        <address>
-            <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-            <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-        </address>
+        <div class="container">
+            <form method="post">
+                <div class="col-md-4 mx-auto p-4">
+                <h4 >Contact Page</h4>
+                    <div class="form-contact">
+                        <label>Votre Nom</label>
+                        <input type="text" name="name" class="form-control" placeholder="Nom"/>
+                    </div>
+                    <div class="form-contact">
+                        <label>Email</label>
+                        <input type="email" name="" class="form-control" placeholder="Email"/>
+                    </div>
+                    <div class="form-contact">
+                        <label>Objet</label>
+                        <input type="text" name="" class="form-control" placeholder="Objet"/>
+                    </div>
+                    <div class="form-contact">
+                        <label>Message</label>
+                        <textarea class="form-control" placeholder="Message"></textarea>
+                    </div>
+                <button type="submit" class="btn btn-outline-primary">Submit</button>
+                </div>
+            </form>
+        </div>
     </main>
 </asp:Content>
